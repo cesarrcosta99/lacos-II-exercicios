@@ -5,3 +5,15 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+  for(let i=0; i < array.length; i++){
+    for(let z=0;z < array[i].length; z++){
+        console.log(`jogador ${i + 1}: - ${array[i]} `)
+    }
+  }
+    for(indice in array){
+    for(valor of array[indice]) {
+        console.log(`${Number(indice) + 1} - ${array[indice]}`)
+    }
+  } 
+
+  

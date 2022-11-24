@@ -7,6 +7,7 @@ Crie um programa que peça um input de número para o usuário. Com este número
 Exemplo com entrada **`7`**:
 ```jsx
 7
+
 14
 21
 28
